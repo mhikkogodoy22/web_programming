@@ -9,7 +9,7 @@ body {
   margin: 50px;
   border: 20px;
   padding: 10px;
-  background-color: lightgreen;
+  background-color: powderblue;
   color: white;   /* text color */
   justify-content: center;
   align-items: center;
@@ -18,12 +18,12 @@ body {
 }
 
 form {
-  background-color: lime;
+  background-color: powderblue;
   padding: 20px; 
 }
 
 button{
-  background-color: green;
+  background-color: navy;
 
   p{ color: black;}
  .note{color: green;}
