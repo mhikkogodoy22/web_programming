@@ -1,0 +1,46 @@
+
+
+header{
+  font-size: 20px;
+  text-align: center;
+  color: green;
+}
+body {
+  margin: 50px;
+  border: 20px;
+  padding: 10px;
+  background-color: lightgreen;
+  color: white;   /* text color */
+  justify-content: center;
+  align-items: center;
+  height: 1280px;
+  border: 3px solid black; 
+}
+
+form {
+  background-color: lime;
+  padding: 20px; 
+}
+
+button{
+  background-color: green;
+
+  p{ color: black;}
+ .note{color: green;}
+ #alert {color: red;}
+ height: 150px;
+ width: 150px;
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+  --brand: #1f7a5c;
+  --space: 1rem;
+
+}
+.button{
+  background: var(--brand);
+  padding: var(--space)
+}
+}

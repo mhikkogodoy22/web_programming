@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campus Notice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bal">
+    <header class="header"><h1>Don Mariano Marcus Memorial State University</h1></header>
+    
+  </div>
+  <img src="dmmmsu-logo.jpg" alt="dmmmsuLogo" height="300" >
+  <nav><a href="notices.html"><h2> Read Notices</h2></a></nav>
+  <h1>Campus Notices</h1>
+  
+  <p><h2>The College of <strong>Computer Science</strong> Faculties</h2></p>
+  <img src="ccslogo.jpg" alt="csslogo" height="200"  />
+
+  <ol>
+    <p><h3>Ordered List</h3></p>
+    <li>Haydee Limson</li>
+    <li>Charlie Marzan</li>
+    <li>Maria Jeseca Baculo</li>
+    <li>Jerome Sungcuan</li>
+    <li>Lucille Dacamay</li>
+  </ol>
+
+  <ul>
+    <p><h3>Unordered List</h3></p>
+    <li>Haydee Limson</li>
+    <li>Charlie Marzan</li>
+    <li>Maria Jeseca Baculo</li>
+    <li>Jerome Sungcuan</li>
+    <li>Lucille Dacamay</li>
+  </ul>
+
+  
+
+  <form action="/api/notices" method="post">
+    <label for="title">Title</label>
+    <input id="title" name="title" type="text" required />
+
+    <label for="msg">Message</label>
+    <textarea id="msg" name="message"></textarea>
+
+    <button type="submit" class="button1"><h1>Post Notice</h1></button>
+
+     <p id="alert" class="note">
+ which colour?
+
+ </p>
+ 
+  </form>
+</body>
+</html>
